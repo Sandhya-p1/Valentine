@@ -7,18 +7,26 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background: url(https://i.pinimg.com/736x/1f/18/41/1f18418b9353557bae17cb4c9d931bb0.jpg);
-
+  /* background: url(https://i.pinimg.com/736x/1f/18/41/1f18418b9353557bae17cb4c9d931bb0.jpg); */
+  background-color: white;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.home-bg {
+  background: url(https://img.freepik.com/free-vector/blurred-valentine-s-day-wallpaper_23-2148819570.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
+/* .heart-cursor {
+  cursor: url("/images/heart2.png"), pointer;
+} */
